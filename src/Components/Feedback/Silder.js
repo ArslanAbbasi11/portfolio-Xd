@@ -17,8 +17,8 @@ const Silder=()=> {
                     }
                     setTimeout(() => {
                        setFlag(flag+=1);
-                      }, 7000);
-                },[flag])
+                      }, 6000);
+                })
 
     return (
         <div className="slider-wrapper">
@@ -32,33 +32,19 @@ const Silder=()=> {
 
              </div>
              <div className="feedback-detail">
-                   { flag==1 ? <p><img src="Images/mark.png" className="upper-mark"/> 
-                       {detail[0]}
-                       <img src="Images/mark.png" className="lower-mark"/> 
-                       </p> :<></>}
-                     {  flag==2 ? <p><img src="Images/mark.png" className="upper-mark"/> 
-                         {detail[1]}
-                         <img src="Images/mark.png" className="lower-mark"/> 
-                         </p>: <></>}
-                      { flag==3 ? <p><img src="Images/mark.png" className="upper-mark"/> 
-                          {detail[2]}
-                          <img src="Images/mark.png" className="lower-mark"/> 
-                          </p>: <></>}
-                      { flag==4 ? <p><img src="Images/mark.png" className="upper-mark"/> 
-                          {detail[3]}
-                          <img src="Images/mark.png" className="lower-mark"/> 
-                          </p>: <></>}
-                      { flag==5 ? <p><img src="Images/mark.png" className="upper-mark"/> 
-                          {detail[4]}
-                          <img src="Images/mark.png" className="lower-mark"/> 
-                          </p>: <></>}
-                       {flag==6 ? <p><img src="Images/mark.png" className="upper-mark"/> 
-                           {detail[5]}
-                           <img src="Images/mark.png" className="lower-mark"/> 
-                           </p>: <></>}
+                    { flag==1 ? <p> {detail[0]} </p> :<></>}
+                     {  flag==2 ? <p>  {detail[1]}  </p>: <></>}
+
+                      { flag==3 ? <p>    {detail[2]} </p>: <></>}
+
+                      { flag==4 ? <p> {detail[3]}    </p>: <></>}
+
+                      { flag==5 ? <p>  {detail[4]} </p>: <></>}
+
+                       {flag==6 ? <p> {detail[5]}  </p>: <></>}
 
                    
-               <h6>- Sara Smith
+                      <h6>- Sara Smith
                    <span>CEO ABC Company</span></h6>
              </div>
         </div>
