@@ -1,0 +1,123 @@
+.feedback-sec{
+    padding-top: 103px;
+  padding-bottom: 138px;
+
+}
+.feedback-sec .container > h3{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 108px;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    margin-bottom: 114px;
+}
+.feedback-sec .container > h3::after{
+    content: '';
+    border: 1px solid #FF0513;
+    width: 345px;
+    bottom: -25px;
+    left: 40%;
+    position: absolute;
+}
+.feedback-sec .container > p{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 55px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 214px;
+}
+
+.slider-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 148px;
+    align-items: initial;
+}
+.slider-wrapper .img-nav{
+    background-image: url(../../map.png);
+    background-repeat: no-repeat;
+    background-size: 809px auto;
+    width:47%;
+    height:394px ;
+    position: relative;
+}
+.slider-wrapper .img-nav img{
+    max-width: 187px;
+    border: 10px solid transparent;
+    transition: 1s ease;
+    cursor: pointer;
+
+}
+.slider-wrapper .img-nav img:hover{
+   border: 10px solid #FF0513;
+   border-radius: 100%;
+   transform: scale(0.7);
+}
+
+.img-link2{
+    position: absolute;
+    top: 214px;
+    left: 212px;
+}
+.img-link1{
+    position: absolute;
+    top: 1px;
+    left: 107px;
+}
+.img-link3{
+    position: absolute;
+    top: 80px;
+    left: 379px;
+}
+.img-link4{
+    
+    position: absolute;
+    top: 284px;
+    left: 615px;
+
+}
+.img-link5{
+    position: absolute;
+    top: -104px;
+    left: 636px;
+    width: 187px;
+}
+
+.img-link6{
+    position: absolute;
+    bottom: -143px;
+    left: 326px;
+    width: 187px;
+}
+.feedback-detail{
+  width: 47%;
+  height: 568px;
+}
+.feedback-detail p{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 55px;
+    color: #ffffff;
+    max-width: 841px;
+    margin-bottom: 85px;
+  
+}
+
+
+.feedback-detail h6{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #ffffff;
+    max-width: 212px;
+    text-align: center;
+}
+.feedback-detail h6 span{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #ffffff;
+}

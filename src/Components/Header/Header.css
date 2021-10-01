@@ -1,0 +1,204 @@
+/*header upper*/
+header{
+    background-color: #0E0C38;
+}
+.header-inner{
+    position: relative;
+    z-index: 0;
+}
+header .header-upper{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+header .header-upper .logo{
+    max-width: 437px;
+   
+}
+header .header-upper .logo img {
+    width: 100%;
+    height: 88px;
+    object-fit: cover;
+}
+header .header-upper .layer2{
+    max-width: 590x;
+    margin-left: -165px;
+}
+header .header-upper .layer2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 263px;
+    position: relative;
+    z-index: 2;
+}
+header .header-upper button{
+    width: 202px;
+    background-color: transparent;
+    height: 72px;
+    color: #FFFFFF;
+    border: 2px solid #ffffff;
+    border-radius: 60px;
+    font-size: 22px;
+    margin-top: 48px;
+    font-weight: 400;   
+    font-family: "Raleway";
+}
+header .header-upper button:hover{
+    background-color: #FF0513;
+    color: #ffffff;
+    transition: 1s ease;
+    border: 2px solid #FF0513;
+    cursor: pointer;
+}
+header .header-upper nav ul {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-upper> nav li a{
+     color:#FFFFFF;
+     width:123px;
+     height: 117px;
+     padding-top: 70px;
+     text-align: center;
+     font-size: 22px;
+     font-weight: 500;    
+ 
+}
+header .header-upper nav a:hover{
+   
+    margin-bottom: 6px;
+    transition: 2s ease;
+}
+header .header-upper nav li ::before {
+    content: '';
+    display: block;
+    z-index: -1;
+    top: -125px;
+    position: absolute;
+    width: 123px;
+    height: 117px;
+ 
+    background: #FF0513;
+    transition: width .3s;
+    transition: 1s ease;
+   
+}
+header .header-upper nav li:hover ::before {
+    top: -1px;
+    transition: 1s ease;
+}
+
+header .header-upper nav li ::after {
+    content: '';
+    display: block;
+    bottom: 0;
+    margin-top: 20px;
+    width: 0;
+    height: 1px;
+    background: #FF0513;
+    transition: width .3s;
+    transition: 1s ease;
+   
+}
+
+header .header-upper nav li :hover::after {
+    width: 100%;
+   
+}
+/*header lower*/
+.lower-header .left-wrapper h1{
+    font-size: 150px;
+    color: #ffffff;
+    max-width: 735px;
+    font-weight: 700;
+    line-height: 141px;
+}
+.lower-header .left-wrapper h1 > span{
+    font-size: 41px;
+    font-weight: 300;
+    display: block;
+    line-height: 61px;
+    
+}
+.lower-header .left-wrapper p{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 39px;
+    color: #ffffff;
+}
+.lower-header .left-wrapper p span{
+    
+    color: #FF0513
+}
+.lower-header .left-wrapper nav h3{
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Raleway";
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+.lower-header .left-wrapper nav{
+    margin-top: 40px;
+    margin-bottom: 68px;
+}
+.lower-header .left-wrapper .buttons {
+    max-width: 585px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.lower-header{
+    display: flex;
+    position: relative;
+}
+.lower-header .right-wrapper{
+    max-width: 908px;
+    max-height: 862px;
+}
+.lower-header .right-wrapper > img{
+    width: 100%;
+    height: 1033px;
+    position: relative;
+    top: -195px;
+   
+
+}
+.lower-header > img{
+    width: 574px;
+    height: 574px;
+    position: absolute;
+    z-index: -1;
+    top: 25px;
+    left: -326px;
+}
+
+.social-links{
+    display: flex;
+    max-width: 354px;
+    justify-content: space-between;
+    align-items: center;
+}
+ .social-links li{
+    max-width: 56px;
+  
+}
+ .social-links li img{
+    object-fit: cover;
+    width: 100%;
+   
+   
+}
+ .social-links  li:hover{
+    transform: scale(1.1); 
+    transition: .5s ease;
+    cursor: pointer;
+}
+.layer2-img{
+    position: absolute;
+    right: -81px;
+    bottom: 0;
+}
